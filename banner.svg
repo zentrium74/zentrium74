@@ -1,0 +1,631 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
+  <defs>
+    <style>
+
+    /* General styles and resets */
+    svg {
+      background-color: #0a0a1a;
+    }
+
+    /* Scene 1 - Evolution March (0s - 3.0s) */
+    @keyframes scene1-group-fade {
+      0%, 20.00% { opacity: 1; }
+      20.01%, 100% { opacity: 0; }
+    }
+    .scene1-group {
+      animation: scene1-group-fade 15s infinite both;
+    }
+
+    @keyframes march-slide {
+      0% { transform: translateX(-700px); }
+      18.67% { transform: translateX(1100px); }
+      100% { transform: translateX(1100px); }
+    }
+    .march-fig {
+      animation: march-slide 15s infinite both linear;
+    }
+
+    /* Scene 2 - Characters Enter (3.0s - 7.0s, visible till 9.0s) */
+    @keyframes robot-slide {
+      0% { transform: translateX(-80px); opacity: 0; }
+      0.01% { transform: translateX(-80px); opacity: 1; animation-timing-function: steps(14); }
+      18.67% { transform: translateX(280px); opacity: 1; }
+      40.00% { transform: translateX(280px); opacity: 1; }
+      40.01% { transform: translateX(280px); opacity: 0; }
+      100% { transform: translateX(280px); opacity: 0; }
+    }
+    .robot-group {
+      animation: robot-slide 15s infinite both;
+    }
+
+    @keyframes robot-lleg-anim {
+      0% { transform: translateY(0); }
+      1.17% { transform: translateY(-4px); }
+      2.33% { transform: translateY(0); }
+      3.50% { transform: translateY(-4px); }
+      4.67% { transform: translateY(0); }
+      5.83% { transform: translateY(-4px); }
+      7.00% { transform: translateY(0); }
+      8.17% { transform: translateY(-4px); }
+      9.33% { transform: translateY(0); }
+      10.50% { transform: translateY(-4px); }
+      11.67% { transform: translateY(0); }
+      12.83% { transform: translateY(-4px); }
+      14.00% { transform: translateY(0); }
+      15.17% { transform: translateY(-4px); }
+      16.33% { transform: translateY(0); }
+      17.50% { transform: translateY(-4px); }
+      18.67% { transform: translateY(0); }
+      40.00% { transform: translateY(0); }
+      40.01%, 100% { opacity: 0; }
+    }
+    .robot-lleg {
+      animation: robot-lleg-anim 15s infinite both;
+    }
+
+    @keyframes robot-rleg-anim {
+      0% { transform: translateY(-4px); }
+      1.17% { transform: translateY(0); }
+      2.33% { transform: translateY(-4px); }
+      3.50% { transform: translateY(0); }
+      4.67% { transform: translateY(-4px); }
+      5.83% { transform: translateY(0); }
+      7.00% { transform: translateY(-4px); }
+      8.17% { transform: translateY(0); }
+      9.33% { transform: translateY(-4px); }
+      10.50% { transform: translateY(0); }
+      11.67% { transform: translateY(-4px); }
+      12.83% { transform: translateY(0); }
+      14.00% { transform: translateY(-4px); }
+      15.17% { transform: translateY(0); }
+      16.33% { transform: translateY(-4px); }
+      17.50% { transform: translateY(0); }
+      18.67% { transform: translateY(0); }
+      40.00% { transform: translateY(0); }
+      40.01%, 100% { opacity: 0; }
+    }
+    .robot-rleg {
+      animation: robot-rleg-anim 15s infinite both;
+    }
+
+    @keyframes robot-eye-blink {
+      0% { opacity: 1; }
+      3.00% { opacity: 1; }
+      3.33% { opacity: 0; }
+      3.67% { opacity: 1; }
+      6.33% { opacity: 1; }
+      6.67% { opacity: 0; }
+      7.00% { opacity: 1; }
+      9.67% { opacity: 1; }
+      10.00% { opacity: 0; }
+      10.33% { opacity: 1; }
+      13.00% { opacity: 1; }
+      13.33% { opacity: 0; }
+      13.67% { opacity: 1; }
+      16.33% { opacity: 1; }
+      16.67% { opacity: 0; }
+      17.00% { opacity: 1; }
+      19.67% { opacity: 1; }
+      20.00% { opacity: 0; }
+      20.33% { opacity: 1; }
+      23.00% { opacity: 1; }
+      23.33% { opacity: 0; }
+      23.67% { opacity: 1; }
+      26.33% { opacity: 1; }
+      26.67% { opacity: 0; }
+      27.00% { opacity: 1; }
+      29.67% { opacity: 1; }
+      30.00% { opacity: 0; }
+      30.33% { opacity: 1; }
+      33.00% { opacity: 1; }
+      33.33% { opacity: 0; }
+      33.67% { opacity: 1; }
+      36.33% { opacity: 1; }
+      36.67% { opacity: 0; }
+      37.00% { opacity: 1; }
+      39.67% { opacity: 1; }
+      40.00% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .robot-eye {
+      animation: robot-eye-blink 15s infinite both;
+    }
+
+    @keyframes human-slide {
+      0% { transform: translateX(980px); opacity: 0; }
+      0.01% { transform: translateX(980px); opacity: 1; animation-timing-function: steps(14); }
+      18.67% { transform: translateX(590px); opacity: 1; }
+      40.00% { transform: translateX(590px); opacity: 1; }
+      40.01% { transform: translateX(590px); opacity: 0; }
+      100% { transform: translateX(590px); opacity: 0; }
+    }
+    .human-group {
+      animation: human-slide 15s infinite both;
+    }
+
+    @keyframes human-larm-anim {
+      0% { transform: rotate(-15deg); }
+      1.33% { transform: rotate(15deg); }
+      2.67% { transform: rotate(-15deg); }
+      4.00% { transform: rotate(15deg); }
+      5.33% { transform: rotate(-15deg); }
+      6.67% { transform: rotate(15deg); }
+      8.00% { transform: rotate(-15deg); }
+      9.33% { transform: rotate(15deg); }
+      10.67% { transform: rotate(-15deg); }
+      12.00% { transform: rotate(15deg); }
+      13.33% { transform: rotate(-15deg); }
+      14.67% { transform: rotate(15deg); }
+      16.00% { transform: rotate(-15deg); }
+      17.33% { transform: rotate(15deg); }
+      18.67% { transform: rotate(0deg); }
+      40.00% { transform: rotate(0deg); }
+      40.01%, 100% { opacity: 0; }
+    }
+    .human-larm {
+      animation: human-larm-anim 15s infinite both;
+      transform-origin: -14px 175px;
+    }
+
+    @keyframes human-rarm-anim {
+      0% { transform: rotate(15deg); }
+      1.33% { transform: rotate(-15deg); }
+      2.67% { transform: rotate(15deg); }
+      4.00% { transform: rotate(-15deg); }
+      5.33% { transform: rotate(15deg); }
+      6.67% { transform: rotate(-15deg); }
+      8.00% { transform: rotate(15deg); }
+      9.33% { transform: rotate(-15deg); }
+      10.67% { transform: rotate(15deg); }
+      12.00% { transform: rotate(-15deg); }
+      13.33% { transform: rotate(15deg); }
+      14.67% { transform: rotate(-15deg); }
+      16.00% { transform: rotate(15deg); }
+      17.33% { transform: rotate(-15deg); }
+      18.67% { transform: rotate(0deg); }
+      40.00% { transform: rotate(0deg); }
+      40.01%, 100% { opacity: 0; }
+    }
+    .human-rarm {
+      animation: human-rarm-anim 15s infinite both;
+      transform-origin: 14px 175px;
+    }
+
+    @keyframes human-lleg-anim {
+      0% { transform: translateY(0); }
+      1.33% { transform: translateY(-5px); }
+      2.67% { transform: translateY(0); }
+      4.00% { transform: translateY(-5px); }
+      5.33% { transform: translateY(0); }
+      6.67% { transform: translateY(-5px); }
+      8.00% { transform: translateY(0); }
+      9.33% { transform: translateY(-5px); }
+      10.67% { transform: translateY(0); }
+      12.00% { transform: translateY(-5px); }
+      13.33% { transform: translateY(0); }
+      14.67% { transform: translateY(-5px); }
+      16.00% { transform: translateY(0); }
+      17.33% { transform: translateY(-5px); }
+      18.67% { transform: translateY(0); }
+      40.00% { transform: translateY(0); }
+      40.01%, 100% { opacity: 0; }
+    }
+    .human-lleg {
+      animation: human-lleg-anim 15s infinite both;
+    }
+
+    @keyframes human-rleg-anim {
+      0% { transform: translateY(-5px); }
+      1.33% { transform: translateY(0); }
+      2.67% { transform: translateY(-5px); }
+      4.00% { transform: translateY(0); }
+      5.33% { transform: translateY(-5px); }
+      6.67% { transform: translateY(0); }
+      8.00% { transform: translateY(-5px); }
+      9.33% { transform: translateY(0); }
+      10.67% { transform: translateY(-5px); }
+      12.00% { transform: translateY(0); }
+      13.33% { transform: translateY(-5px); }
+      14.67% { transform: translateY(0); }
+      16.00% { transform: translateY(-5px); }
+      17.33% { transform: translateY(0); }
+      18.67% { transform: translateY(0); }
+      40.00% { transform: translateY(0); }
+      40.01%, 100% { opacity: 0; }
+    }
+    .human-rleg {
+      animation: human-rleg-anim 15s infinite both;
+    }
+
+    /* Scene 3 - Nokia Moment (7.0s - 9.0s) */
+    @keyframes robot-hand-slide {
+      0% { transform: translateX(150px); opacity: 0; }
+      0.01% { transform: translateX(150px); opacity: 1; }
+      3.33% { transform: translateX(370px); opacity: 1; }
+      12.00% { transform: translateX(370px); opacity: 1; }
+      13.33% { transform: translateX(150px); opacity: 0; }
+      100% { transform: translateX(150px); opacity: 0; }
+    }
+    .robot-hand {
+      animation: robot-hand-slide 15s infinite both;
+    }
+
+    @keyframes human-hand-slide {
+      0% { transform: translateX(750px); opacity: 0; }
+      0.01% { transform: translateX(750px); opacity: 1; }
+      3.33% { transform: translateX(480px); opacity: 1; }
+      12.00% { transform: translateX(480px); opacity: 1; }
+      13.33% { transform: translateX(750px); opacity: 0; }
+      100% { transform: translateX(750px); opacity: 0; }
+    }
+    .human-hand {
+      animation: human-hand-slide 15s infinite both;
+    }
+
+    @keyframes spark-blink {
+      0% { opacity: 0; }
+      5.33% { opacity: 0; }
+      5.34% { opacity: 1; }
+      6.13% { opacity: 0; }
+      6.93% { opacity: 1; }
+      7.73% { opacity: 0; }
+      8.53% { opacity: 1; }
+      9.33% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .spark {
+      animation: spark-blink 15s infinite both;
+    }
+
+    @keyframes connecting-text-anim {
+      0% { opacity: 0; }
+      0.01% { opacity: 0; }
+      1.33% { opacity: 1; }
+      10.67% { opacity: 1; }
+      12.00% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .connecting-text {
+      animation: connecting-text-anim 15s infinite both;
+    }
+
+    /* Scene 4 - Arcade Explosion (9.0s - 10.5s) */
+    @keyframes shape1-anim {
+      0% { transform: scale(0); opacity: 0; }
+      0.01% { transform: scale(0); opacity: 1; }
+      1.33% { transform: scale(1); opacity: 1; }
+      4.67% { transform: scale(1); opacity: 1; }
+      6.67% { transform: scale(1); opacity: 0; }
+      100% { transform: scale(1); opacity: 0; }
+    }
+    .exp-shape1 {
+      animation: shape1-anim 15s infinite both;
+    }
+
+    @keyframes shape2-anim {
+      0% { transform: scale(0) rotate(0deg); opacity: 0; }
+      0.01% { transform: scale(0) rotate(0deg); opacity: 1; }
+      1.67% { transform: scale(1.2) rotate(40deg); opacity: 1; }
+      4.67% { transform: scale(1.2) rotate(40deg); opacity: 1; }
+      6.67% { transform: scale(1.2) rotate(40deg); opacity: 0; }
+      100% { transform: scale(1.2) rotate(40deg); opacity: 0; }
+    }
+    .exp-shape2 {
+      animation: shape2-anim 15s infinite both;
+    }
+
+    @keyframes shape3-anim {
+      0% { transform: scale(0); opacity: 0; }
+      0.33% { transform: scale(0); opacity: 1; }
+      1.33% { transform: scale(0.9); opacity: 1; }
+      4.67% { transform: scale(0.9); opacity: 1; }
+      6.67% { transform: scale(0.9); opacity: 0; }
+      100% { transform: scale(0.9); opacity: 0; }
+    }
+    .exp-shape3 {
+      animation: shape3-anim 15s infinite both;
+    }
+
+    @keyframes shard-n-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(0px, -45px); opacity: 0; }
+      100% { transform: translate(0px, -45px); opacity: 0; }
+    }
+    .shard-n { animation: shard-n-anim 15s infinite both; }
+
+    @keyframes shard-ne-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(31.8px, -31.8px); opacity: 0; }
+      100% { transform: translate(31.8px, -31.8px); opacity: 0; }
+    }
+    .shard-ne { animation: shard-ne-anim 15s infinite both; }
+
+    @keyframes shard-e-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(45px, 0px); opacity: 0; }
+      100% { transform: translate(45px, 0px); opacity: 0; }
+    }
+    .shard-e { animation: shard-e-anim 15s infinite both; }
+
+    @keyframes shard-se-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(31.8px, 31.8px); opacity: 0; }
+      100% { transform: translate(31.8px, 31.8px); opacity: 0; }
+    }
+    .shard-se { animation: shard-se-anim 15s infinite both; }
+
+    @keyframes shard-s-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(0px, 45px); opacity: 0; }
+      100% { transform: translate(0px, 45px); opacity: 0; }
+    }
+    .shard-s { animation: shard-s-anim 15s infinite both; }
+
+    @keyframes shard-sw-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(-31.8px, 31.8px); opacity: 0; }
+      100% { transform: translate(-31.8px, 31.8px); opacity: 0; }
+    }
+    .shard-sw { animation: shard-sw-anim 15s infinite both; }
+
+    @keyframes shard-w-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(-45px, 0px); opacity: 0; }
+      100% { transform: translate(-45px, 0px); opacity: 0; }
+    }
+    .shard-w { animation: shard-w-anim 15s infinite both; }
+
+    @keyframes shard-nw-anim {
+      0% { transform: translate(0, 0); opacity: 0; }
+      0.01% { transform: translate(0, 0); opacity: 1; }
+      2.67% { transform: translate(-31.8px, -31.8px); opacity: 0; }
+      100% { transform: translate(-31.8px, -31.8px); opacity: 0; }
+    }
+    .shard-nw { animation: shard-nw-anim 15s infinite both; }
+
+    @keyframes flash-anim {
+      0% { opacity: 0; }
+      4.67% { opacity: 0; }
+      4.68% { opacity: 0.7; }
+      5.33% { opacity: 0.7; }
+      5.34% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .flash-rect {
+      animation: flash-anim 15s infinite both;
+    }
+
+    @keyframes boom-anim {
+      0% { transform: scale(0.4); opacity: 0; }
+      0.01% { transform: scale(0.4); opacity: 1; }
+      2.00% { transform: scale(1.4); opacity: 1; }
+      4.67% { transform: scale(1.4); opacity: 1; }
+      6.67% { transform: scale(1.4); opacity: 0; }
+      100% { transform: scale(1.4); opacity: 0; }
+    }
+    .boom-text {
+      animation: boom-anim 15s infinite both;
+    }
+
+    /* Scene 5 - Name Reveal (10.5s - 14.2s) */
+    @keyframes name-text-anim {
+      0% { opacity: 0; }
+      0.01% { opacity: 0; }
+      3.33% { opacity: 1; }
+      22.00% { opacity: 1; }
+      24.67% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .name-text {
+      animation: name-text-anim 15s infinite both;
+    }
+
+    @keyframes name-text-glow-anim {
+      0% { opacity: 0; }
+      0.01% { opacity: 0; }
+      3.33% { opacity: 1; }
+      5.33% { opacity: 0.2; }
+      7.33% { opacity: 1; }
+      9.33% { opacity: 0.2; }
+      11.33% { opacity: 1; }
+      13.33% { opacity: 0.2; }
+      15.33% { opacity: 1; }
+      17.33% { opacity: 0.2; }
+      19.33% { opacity: 1; }
+      22.00% { opacity: 1; }
+      24.67% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .name-text-glow {
+      animation: name-text-glow-anim 15s infinite both;
+    }
+
+    @keyframes subtitle-text-anim {
+      0% { opacity: 0; }
+      4.67% { opacity: 0; }
+      8.00% { opacity: 1; }
+      22.00% { opacity: 1; }
+      24.67% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .subtitle-text {
+      animation: subtitle-text-anim 15s infinite both;
+    }
+    
+    </style>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="18" height="18" rx="3" fill="#0d0d1a" stroke="#2a1a6e" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Permanent Grid Background -->
+  <rect width="900" height="280" fill="url(#gridPattern)"/>
+
+  <!-- SCENE 1 - EVOLUTION MARCH (0s - 3.0s) -->
+  <g class="scene1-group">
+    <!-- Fig 1 - Chimp -->
+    <g class="march-fig" style="animation-delay: 0.0s;">
+      <rect x="-10" y="183" width="8" height="8" fill="#e0e0e0"/>
+      <rect x="-8" y="189" width="18" height="18" fill="#e0e0e0"/>
+      <rect x="-2" y="175" width="10" height="10" fill="#e0e0e0"/>
+      <rect x="8" y="179" width="4" height="4" fill="#e0e0e0"/>
+      <rect x="-8" y="207" width="5" height="13" fill="#e0e0e0"/>
+      <rect x="6" y="195" width="5" height="25" fill="#e0e0e0"/>
+    </g>
+    <!-- Fig 2 - Early Human -->
+    <g class="march-fig" style="animation-delay: 0.1s;">
+      <rect x="-1" y="170" width="10" height="10" fill="#cccccc"/>
+      <rect x="-6" y="180" width="12" height="24" fill="#cccccc"/>
+      <rect x="-5" y="204" width="5" height="16" fill="#cccccc"/>
+      <rect x="1" y="204" width="5" height="16" fill="#cccccc"/>
+      <rect x="4" y="184" width="5" height="18" fill="#cccccc"/>
+    </g>
+    <!-- Fig 3 - Modern Human -->
+    <g class="march-fig" style="animation-delay: 0.2s;">
+      <circle cx="3" cy="172" r="5" fill="#e0e0e0"/>
+      <rect x="2" y="177" width="2" height="3" fill="#e0e0e0"/>
+      <rect x="-4" y="180" width="14" height="26" fill="#e0e0e0"/>
+      <rect x="-3" y="206" width="5" height="14" fill="#e0e0e0"/>
+      <rect x="4" y="206" width="5" height="14" fill="#e0e0e0"/>
+      <rect x="10" y="180" width="4" height="20" fill="#e0e0e0"/>
+    </g>
+    <!-- Fig 4 - Cyborg -->
+    <g class="march-fig" style="animation-delay: 0.3s;">
+      <circle cx="3" cy="172" r="5" fill="#cccccc"/>
+      <rect x="4" y="170" width="4" height="2" fill="#00eaff"/>
+      <rect x="-4" y="180" width="14" height="26" fill="#cccccc"/>
+      <rect x="-3" y="206" width="5" height="14" fill="#cccccc"/>
+      <rect x="4" y="206" width="5" height="14" fill="#cccccc"/>
+      <rect x="-8" y="180" width="4" height="20" fill="#cccccc"/>
+      <rect x="10" y="180" width="4" height="12" fill="#cccccc"/>
+      <circle cx="12" cy="196" r="5" fill="#cccccc"/>
+      <circle cx="12" cy="196" r="2" fill="#0a0a1a"/>
+    </g>
+    <!-- Fig 5 - Robot -->
+    <g class="march-fig" style="animation-delay: 0.4s;">
+      <rect x="-2" y="167" width="10" height="10" fill="#e0e0e0"/>
+      <rect x="0" y="170" width="2" height="2" fill="#00eaff"/>
+      <rect x="4" y="170" width="2" height="2" fill="#00eaff"/>
+      <line x1="3" y1="167" x2="3" y2="161" stroke="#e0e0e0" stroke-width="1.5"/>
+      <circle cx="3" cy="160" r="1.5" fill="#e0e0e0"/>
+      <rect x="-5" y="177" width="16" height="26" fill="#e0e0e0"/>
+      <rect x="-3" y="203" width="5" height="17" fill="#e0e0e0"/>
+      <rect x="4" y="203" width="5" height="17" fill="#e0e0e0"/>
+      <rect x="-9" y="177" width="4" height="20" fill="#e0e0e0"/>
+      <rect x="11" y="177" width="4" height="20" fill="#e0e0e0"/>
+    </g>
+  </g>
+
+  <!-- SCENE 2 - CHARACTERS ENTER (3.0s - 7.0s, visible till 9.0s) -->
+  <!-- Robot -->
+  <g class="robot-group" style="animation-delay: 3.0s;">
+    <!-- Head -->
+    <rect x="-11" y="150" width="22" height="20" fill="#555555"/>
+    <rect x="-7" y="155" width="5" height="5" fill="#00eaff" class="robot-eye"/>
+    <rect x="2" y="155" width="5" height="5" fill="#00eaff" class="robot-eye"/>
+    <!-- Antenna -->
+    <rect x="-1" y="138" width="2" height="12" fill="#888888"/>
+    <circle cx="0" cy="138" r="3" fill="#888888"/>
+    <!-- Arms -->
+    <rect x="-20" y="170" width="6" height="16" fill="#444444"/>
+    <rect x="14" y="170" width="6" height="16" fill="#444444"/>
+    <!-- Body -->
+    <rect x="-14" y="170" width="28" height="36" fill="#444444"/>
+    <!-- Legs -->
+    <rect x="-11" y="206" width="8" height="14" fill="#333333" class="robot-lleg"/>
+    <rect x="3" y="206" width="8" height="14" fill="#333333" class="robot-rleg"/>
+  </g>
+
+  <!-- Human -->
+  <g class="human-group" style="animation-delay: 3.0s;">
+    <!-- Head & Hair -->
+    <circle cx="0" cy="161" r="11" fill="#f4a460"/>
+    <rect x="-12" y="144" width="24" height="7" fill="#3a2000"/>
+    <!-- Arms -->
+    <rect x="-17" y="172" width="6" height="18" fill="#f4a460" class="human-larm"/>
+    <rect x="11" y="172" width="6" height="18" fill="#f4a460" class="human-rarm"/>
+    <!-- Body -->
+    <rect x="-11" y="172" width="22" height="30" fill="#3a6fd8"/>
+    <!-- Legs -->
+    <rect x="-11" y="202" width="9" height="18" fill="#1a3a8a" class="human-lleg"/>
+    <rect x="2" y="202" width="9" height="18" fill="#1a3a8a" class="human-rleg"/>
+  </g>
+
+  <!-- SCENE 3 - NOKIA MOMENT (7.0s - 9.0s) -->
+  <!-- Robot Hand -->
+  <g class="robot-hand" style="animation-delay: 7.0s;">
+    <rect x="50" y="45" width="15" height="20" fill="#aaaaaa"/>
+    <rect x="65" y="47" width="15" height="4" fill="#aaaaaa"/>
+    <rect x="65" y="53" width="18" height="4" fill="#aaaaaa"/>
+    <rect x="65" y="59" width="15" height="4" fill="#aaaaaa"/>
+  </g>
+
+  <!-- Human Hand -->
+  <g class="human-hand" style="animation-delay: 7.0s;">
+    <rect x="-15" y="45" width="15" height="20" rx="2" fill="#f4a460"/>
+    <rect x="-27" y="46" width="12" height="3.5" rx="1.75" fill="#f4a460"/>
+    <rect x="-30" y="51" width="15" height="3.5" rx="1.75" fill="#f4a460"/>
+    <rect x="-30" y="56" width="15" height="3.5" rx="1.75" fill="#f4a460"/>
+    <rect x="-27" y="61" width="12" height="3.5" rx="1.75" fill="#f4a460"/>
+  </g>
+
+  <!-- Spark -->
+  <g transform="translate(450, 62)" class="spark" style="animation-delay: 7.0s;">
+    <polygon points="0,-4 0.57,-1.39 2.8,-2.8 1.39,-0.57 4,0 1.39,0.57 2.8,2.8 0.57,1.39 0,4 -0.57,1.39 -2.8,2.8 -1.39,0.57 -4,0 -1.39,-0.57 -2.8,-2.8 -0.57,-1.39" fill="#ffffff" />
+  </g>
+
+  <!-- Connecting Text -->
+  <text class="connecting-text" x="450" y="95" font-family="Courier New" font-size="11" fill="#00ff41" text-anchor="middle" style="animation-delay: 7.0s;">CONNECTING...</text>
+
+  <!-- SCENE 4 - ARCADE EXPLOSION (9.0s - 10.5s) -->
+  <g transform="translate(450, 148)">
+    <!-- Shape 1 - Big 8-point star -->
+    <polygon class="exp-shape1" points="0,-55 8.42,-20.33 38.89,-38.89 20.33,-8.42 55,0 20.33,8.42 38.89,38.89 8.42,20.33 0,55 -8.42,20.33 -38.89,38.89 -20.33,8.42 -55,0 -20.33,-8.42 -38.89,-38.89 -8.42,-20.33" fill="#ffff00" style="animation-delay: 9.0s;"/>
+    
+    <!-- Shape 2 - Jagged 10-point burst -->
+    <polygon class="exp-shape2" points="0,-45 5.56,-17.12 26.45,-36.41 14.56,-10.58 42.8,-13.91 18,0 42.8,13.91 14.56,10.58 26.45,36.41 5.56,17.12 0,45 -5.56,17.12 -26.45,36.41 -14.56,10.58 -42.8,13.91 -18,0 -42.8,-13.91 -14.56,-10.58 -26.45,-36.41 -5.56,-17.12" fill="#ff6600" style="animation-delay: 9.0s;"/>
+
+    <!-- Shape 3 - Inner 6-point star -->
+    <polygon class="exp-shape3" points="0,-25 5,-8.66 21.65,-12.5 10,0 21.65,12.5 5,8.66 0,25 -5,8.66 -21.65,12.5 -10,0 -21.65,-12.5 -5,-8.66" fill="#ffffff" style="animation-delay: 9.0s;"/>
+
+    <!-- Shards -->
+    <rect class="shard-n" x="-3" y="-3" width="6" height="6" fill="#ffff00" style="animation-delay: 9.0s;"/>
+    <rect class="shard-ne" x="-3" y="-3" width="6" height="6" fill="#ff6600" style="animation-delay: 9.0s;"/>
+    <rect class="shard-e" x="-3" y="-3" width="6" height="6" fill="#ffff00" style="animation-delay: 9.0s;"/>
+    <rect class="shard-se" x="-3" y="-3" width="6" height="6" fill="#ff6600" style="animation-delay: 9.0s;"/>
+    <rect class="shard-s" x="-3" y="-3" width="6" height="6" fill="#ffff00" style="animation-delay: 9.0s;"/>
+    <rect class="shard-sw" x="-3" y="-3" width="6" height="6" fill="#ff6600" style="animation-delay: 9.0s;"/>
+    <rect class="shard-w" x="-3" y="-3" width="6" height="6" fill="#ffff00" style="animation-delay: 9.0s;"/>
+    <rect class="shard-nw" x="-3" y="-3" width="6" height="6" fill="#ff6600" style="animation-delay: 9.0s;"/>
+
+    <!-- BOOM! text -->
+    <text class="boom-text" font-family="Courier New" font-size="38" font-weight="bold" fill="#ffff00" text-anchor="middle" dominant-baseline="central" style="animation-delay: 9.0s;">BOOM!</text>
+  </g>
+
+  <!-- Full canvas white flash -->
+  <rect class="flash-rect" width="900" height="280" fill="#ffffff" style="animation-delay: 9.0s;" pointer-events="none"/>
+
+  <!-- SCENE 5 - NAME REVEAL (10.5s - 14.2s) -->
+  <!-- Text 1 Glow -->
+  <text class="name-text-glow" x="450" y="148" font-family="Courier New" font-size="34" font-weight="bold" fill="#00ff41" text-anchor="middle" style="animation-delay: 10.5s;">SID | ZENTRIUM 74</text>
+  <!-- Text 1 Main -->
+  <text class="name-text" x="450" y="148" font-family="Courier New" font-size="34" font-weight="bold" fill="#00ff41" text-anchor="middle" style="animation-delay: 10.5s;">SID | ZENTRIUM 74</text>
+  <!-- Text 2 -->
+  <text class="subtitle-text" x="450" y="178" font-family="Courier New" font-size="11" fill="#00eaff" text-anchor="middle" style="animation-delay: 10.5s;">AI ENGINEER · BUILDER · ZENTRIUM 74</text>
+</svg>
