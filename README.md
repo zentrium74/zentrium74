@@ -16,6 +16,7 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 
 ### **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
@@ -26,6 +27,7 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge)
 
 ### **NLP & Text Processing**
 ![NLTK](https://img.shields.io/badge/NLTK-1C4E3E?style=for-the-badge)
@@ -38,6 +40,10 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![N8N](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Bolt.new](https://img.shields.io/badge/Bolt.new-FF4785?style=for-the-badge)
 ![Fireflies.ai](https://img.shields.io/badge/Fireflies.ai-6C63FF?style=for-the-badge)
+![Hermes](https://img.shields.io/badge/Hermes-8B5CF6?style=for-the-badge)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-10B981?style=for-the-badge)
+
+`Wisper` `Antigravity`
 
 ### **LLM & Agentic AI**
 `LLM Fine-tuning (LoRA, QLoRA, PEFT)` `RAG` `Agentic RAG` `Hybrid Search` `Vector Similarity` 
@@ -45,9 +51,10 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-2E7D32?style=for-the-badge)
 ![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-`LLaMA` `Phi-3` `Gemini` `MCPs` `Agents` `Attention` `BERT` `Transformers`
+`LLaMA` `Phi-3` `Gemini` `MCPs` `Agents` `Attention` `BERT` `A2A`
 
 ### **Machine Learning**
 `Decision Trees` `Ensemble Learning (XGBoost, Boosting)` 
@@ -75,6 +82,10 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+
+### **Development & Deployment**
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
 
