@@ -2,13 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Sid%20%7C%20zentrium74&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Builder&descAlignY=55&descSize=18" width="100%"/>
 
+
 </div>
 
 ---
-
 ## 🧠 About Me
 
 Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building intelligent systems, generative AI applications, and automation tools. I work across the full stack of AI — from data pipelines to LLM deployment.
+- 📫 Reach me at **[Sidharthay74@Gmail.com]**
 
 ---
 
@@ -21,74 +22,41 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-### **AI/ML Frameworks**
+### **AI/ML/NLP**
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge)
-
-### **NLP & Text Processing**
 ![NLTK](https://img.shields.io/badge/NLTK-1C4E3E?style=for-the-badge)
 ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
 ![Gensim](https://img.shields.io/badge/Gensim-1C1C1C?style=for-the-badge)
 
 ### **AI Productivity Tools**
 ![Cursor AI](https://img.shields.io/badge/Cursor%20AI-000000?style=for-the-badge)
-![Claude](https://img.shields.io/badge/Claude-5A67D8?style=for-the-badge)
+![Claude](https://img.shields.io/badge/Claudecode-5A67D8?style=for-the-badge)
 ![N8N](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Bolt.new](https://img.shields.io/badge/Bolt.new-FF4785?style=for-the-badge)
-![Fireflies.ai](https://img.shields.io/badge/Fireflies.ai-6C63FF?style=for-the-badge)
 ![Hermes](https://img.shields.io/badge/Hermes-8B5CF6?style=for-the-badge)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-10B981?style=for-the-badge)
 
 
 ### **LLM & Agentic AI**
-`LLM Fine-tuning (LoRA, QLoRA, PEFT)` `RAG` `Agentic RAG` `Hybrid Search` `Vector Similarity`
-
 ![RAG](https://img.shields.io/badge/RAG-6366F1?style=for-the-badge)
 ![Agentic RAG](https://img.shields.io/badge/Agentic%20RAG-8B5CF6?style=for-the-badge)
 ![MCPs](https://img.shields.io/badge/MCPs-EC4899?style=for-the-badge)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
-
-`LLM Fine-tuning (LoRA, QLoRA, PEFT)` `Hybrid Search` `Vector Similarity
-
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-2E7D32?style=for-the-badge)
 ![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-### **Machine Learning**
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-![Decision Trees](https://img.shields.io/badge/Decision%20Trees-2ECC71?style=for-the-badge)
-![Ensemble Learning](https://img.shields.io/badge/Ensemble%20Learning-27AE60?style=for-the-badge)
-![Boosting](https://img.shields.io/badge/Boosting-16A085?style=for-the-badge)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge)
-
 ### **Cloud Platforms**
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
- `Weaviate`
-### **Data Engineering**
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
-### **Development & Deployment**
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 🗂️ Projects
 
@@ -114,27 +82,6 @@ A professional networking and connection-building platform designed to simplify 
 `Python · Generative AI · Career Tools`
 
 An AI-powered interview preparation guide tailored for data science and AI roles — covering Basics, technical questions. Works for me for quick Recap.
-
----
-
-### 🏨 MotelTimek
-`TypeScript · Business Management`
-
-A motel and hospitality management application for handling bookings, schedules, and operational workflows efficiently.
-
----
-
-### 📊 ML Model Performance Dashboard
-`TypeScript · Machine Learning · Analytics`
-
-An interactive dashboard to monitor, compare, and visualize machine learning model performance metrics across experiments.
-
----
-
-### 📈 Time Series Analysis & Forecasting
-`Python · Data Science · Forecasting`
-
-End-to-end time series analysis and forecasting project covering EDA, feature engineering, and predictive modeling on real-world datasets.
 
 ---
 
@@ -166,20 +113,6 @@ An AI tool for HR professionals to detect inconsistencies in candidate responses
 
 ---
 
-### 🌍 Desi Destinations
-`Web · Travel · Discovery`
-
-A travel discovery platform focused on exploring and showcasing destinations across the Indian subcontinent with rich content and recommendations.
-
----
-
-### 📉 EDA 2024
-`Python · Jupyter · Data Analysis`
-
-Comprehensive exploratory data analysis project covering data cleaning, visualization, and insight generation across multiple real-world datasets.
-
----
-
 ### ⏰ Motel Time Manager
 `TypeScript · Scheduling · Operations`
 
@@ -193,16 +126,19 @@ A scheduling and time management tool built for motel operations — tracking st
 An intelligent job application automation workflow built in n8n — streamlining resume submission, follow-ups, and application tracking at scale.
 
 ---
+---
 
-## 🌈 Contributions
+### 📊 ML Model Performance Dashboard
+`TypeScript · Machine Learning · Analytics`
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zentrium74&theme=react-dark&hide_border=true&area=true&color=FF6B6B&line=FFD93D&point=6BCB77" width="100%"/>
-
-</div>
+An interactive dashboard to monitor, compare, and visualize machine learning model performance metrics across experiments.
 
 ---
+
+### 📈 Time Series Analysis & Forecasting
+`Python · Data Science · Forecasting`
+
+End-to-end time series analysis and forecasting project covering EDA, feature engineering, and predictive modeling on real-world datasets.
 
 <div align="center">
 
