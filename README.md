@@ -1,4 +1,3 @@
-
 <div align="center">
   <img src="./banner.svg" width="100%" alt="Sid | Zentrium 74 Banner" />
 </div>
@@ -59,7 +58,7 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 
 ## 🗂️ Projects
 
-> All code is private — but here's what I've built:
+> All code is private — but here's what I've build for clients/Personal:
 
 ---
 
@@ -69,14 +68,6 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 An AI-powered personal memory and context management system. Helps users store, retrieve, and interact with their own knowledge using LLMs.
 
 ---
-
-### 🤝 Conncetme
-`TypeScript · Networking · Web App`
-
-A professional networking and connection-building platform designed to simplify meaningful human connections in the digital space.
-
----
-
 ### 🤖 AI DATA Interview Prep
 `Python · Generative AI · Career Tools`
 
@@ -99,7 +90,6 @@ A high-performance Retrieval-Augmented Generation (RAG) pipeline that grounds LL
 ---
 
 ### 💬 RAG Chatbot Web
-`TypeScript · RAG · Web App`
 
 A full-stack web chatbot powered by RAG — enabling users to ask questions over custom document collections in a clean chat interface.
 
@@ -128,7 +118,6 @@ An intelligent job application automation workflow built in n8n — streamlining
 ---
 
 ### 📊 ML Model Performance Dashboard
-`TypeScript · Machine Learning · Analytics`
 
 An interactive dashboard to monitor, compare, and visualize machine learning model performance metrics across experiments.
 
@@ -139,8 +128,3 @@ An interactive dashboard to monitor, compare, and visualize machine learning mod
 
 End-to-end time series analysis and forecasting project covering EDA, feature engineering, and predictive modeling on real-world datasets.
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-
-</div>
