@@ -131,13 +131,11 @@ An intelligent job application automation workflow built in n8n — streamlining
 
 ---
 
-## 📊 GitHub Activity
+## 🌈 Contributions
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=zentrium74&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=zentrium74&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=zentrium74&theme=react-dark&hide_border=true&area=true&color=FF6B6B&line=FFD93D&point=6BCB77" width="100%"/>
 
 </div>
 
