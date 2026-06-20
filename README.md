@@ -43,10 +43,16 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![Hermes](https://img.shields.io/badge/Hermes-8B5CF6?style=for-the-badge)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-10B981?style=for-the-badge)
 
-`Wisper` `Antigravity`
 
 ### **LLM & Agentic AI**
-`LLM Fine-tuning (LoRA, QLoRA, PEFT)` `RAG` `Agentic RAG` `Hybrid Search` `Vector Similarity` 
+`LLM Fine-tuning (LoRA, QLoRA, PEFT)` `RAG` `Agentic RAG` `Hybrid Search` `Vector Similarity`
+
+![RAG](https://img.shields.io/badge/RAG-6366F1?style=for-the-badge)
+![Agentic RAG](https://img.shields.io/badge/Agentic%20RAG-8B5CF6?style=for-the-badge)
+![MCPs](https://img.shields.io/badge/MCPs-EC4899?style=for-the-badge)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
+
+`LLM Fine-tuning (LoRA, QLoRA, PEFT)` `Hybrid Search` `Vector Similarity
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-2E7D32?style=for-the-badge)
@@ -54,15 +60,15 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-`LLaMA` `Phi-3` `Gemini` `MCPs` `Agents` `Attention` `BERT` `A2A`
-
 ### **Machine Learning**
-`Decision Trees` `Ensemble Learning (XGBoost, Boosting)` 
-
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+![Decision Trees](https://img.shields.io/badge/Decision%20Trees-2ECC71?style=for-the-badge)
+![Ensemble Learning](https://img.shields.io/badge/Ensemble%20Learning-27AE60?style=for-the-badge)
+![Boosting](https://img.shields.io/badge/Boosting-16A085?style=for-the-badge)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge)
 
@@ -72,9 +78,7 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-
-`S3` `EC2` `SageMaker` `Bedrock` `PowerApps` `Weaviate`
-
+ `Weaviate`
 ### **Data Engineering**
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
@@ -82,12 +86,9 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
-
 ### **Development & Deployment**
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
----
 
 ## 🗂️ Projects
 
@@ -112,7 +113,7 @@ A professional networking and connection-building platform designed to simplify 
 ### 🤖 AI DATA Interview Prep
 `Python · Generative AI · Career Tools`
 
-An AI-powered interview preparation tool tailored for data science and AI roles — covering technical questions, mock interviews, and feedback.
+An AI-powered interview preparation guide tailored for data science and AI roles — covering Basics, technical questions. Works for me for quick Recap.
 
 ---
 
