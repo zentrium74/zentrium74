@@ -60,71 +60,39 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 
 > All code is private — but here's what I've build for clients/Personal:
 
----
-
-### 🧠 Social Memory
+### 🧠 Social 
 `AI · LLM · Memory Management`
 
-An AI-powered personal memory and context management system. Helps users store, retrieve, and interact with their own knowledge using LLMs.
-
+An AI-powered personal memory and context management system.
 ---
-### 🤖 AI DATA Interview Prep
-`Python · Generative AI · Career Tools`
-
-An AI-powered interview preparation guide tailored for data science and AI roles — covering Basics, technical questions. Works for me for quick Recap.
-
----
-
-### 🎯 FocusMode
-`TypeScript · Productivity · Web App`
-
-A productivity web application designed to help users eliminate distractions and maintain deep work sessions with structured focus timers.
-
----
-
 ### 🤖 RAG-BOOM
 `Python · RAG · Generative AI`
 
 A high-performance Retrieval-Augmented Generation (RAG) pipeline that grounds LLM responses in your own documents and knowledge bases.
-
 ---
-
 ### 💬 RAG Chatbot Web
 
 A full-stack web chatbot powered by RAG — enabling users to ask questions over custom document collections in a clean chat interface.
-
 ---
-
 ### 🛡️ Interview Guard for HR
 `TypeScript · AI · HR Tech`
 
 An AI tool for HR professionals to detect inconsistencies in candidate responses and assist in structured, bias-reduced interview evaluation.
-
 ---
-
-### ⏰ Motel Time Manager
+### ⏰ Time Manager
 `TypeScript · Scheduling · Operations`
 
-A scheduling and time management tool built for motel operations — tracking staff shifts, room assignments, and daily operational timelines.
-
+A scheduling and time management tool built for operations — tracking staff shifts, room assignments, and daily operational timelines.
 ---
-
 ### 🤖 n8n Job Application Automation
 `n8n · Automation · AI Agents`
-
-An intelligent job application automation workflow built in n8n — streamlining resume submission, follow-ups, and application tracking at scale.
-
+An intelligent job application automation workflow built in n8n — streamlining resume submission, follow-ups, and application tracking at scale And pulling the Information.
 ---
----
-
 ### 📊 ML Model Performance Dashboard
 
 An interactive dashboard to monitor, compare, and visualize machine learning model performance metrics across experiments.
-
 ---
-
 ### 📈 Time Series Analysis & Forecasting
 `Python · Data Science · Forecasting`
 
 End-to-end time series analysis and forecasting project covering EDA, feature engineering, and predictive modeling on real-world datasets.
-
