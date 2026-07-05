@@ -40,15 +40,15 @@ Hi, I'm **Sid** — an AI Engineer & Data Scientist passionate about building in
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-10B981?style=for-the-badge)
 
 
-### **LLM & Agentic AI**
+### **Agentic AI**
 ![RAG](https://img.shields.io/badge/RAG-6366F1?style=for-the-badge)
 ![Agentic RAG](https://img.shields.io/badge/Agentic%20RAG-8B5CF6?style=for-the-badge)
 ![MCPs](https://img.shields.io/badge/MCPs-EC4899?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-2E7D32?style=for-the-badge)
 ![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![crewAI](https://img.shields.io/badge/CREWAI-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
 
 ### **Cloud Platforms**
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
